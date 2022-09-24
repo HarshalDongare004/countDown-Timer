@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url('image/medium.jpg');
+    /* width: 6299px;
+    height: 4724px; */
+    min-height:100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    font-size: 4rem;
+    font-weight:normal;
+    margin-top: -15px;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;align-items: center;
+    justify-content: center;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+.countdowm-ele{
+    text-align: center;
+}
+
+span{
+    font-size: 1.5rem;
+    /* margin-left: 30px; */
+}
+
+#day{
+    margin-left: 54px;
+}
+#hour{
+    margin-left: 35px;
+}
+#mins{
+    margin-left: 30px;
+}
+#secs{
+    margin-left: 30px;
+}
